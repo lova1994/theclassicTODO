@@ -1,0 +1,52 @@
+
+* {
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family: muli, arial, sans-serif;
+    color: #242424;
+    line-height: 1.5;
+}
+
+header {
+    width:100%;
+    background: #F76879;
+    margin:0;
+    padding:3%;
+    font-family: muli;
+    color: #fff;
+}
+
+.container{
+    padding:3%;
+}
+
+input {
+    width:300px;
+    padding:2%;
+    border: 2px solid #242424;
+    margin-bottom:3%;
+    margin-top:3%;
+}
+
+button {
+    width:300px;
+    padding: 0;
+    font: inherit;
+    color: #fff;
+    background-color: transparent;
+    /* show a hand cursor on hover; some argue that we
+    should keep the default arrow cursor for buttons */
+    cursor: pointer;
+    border: 2px solid #242424;
+    padding:2%;
+    background-color: #FFA76B;
+}
+
+#todolist {
+    margin-bottom:2%;
+    padding:3%;
+}
