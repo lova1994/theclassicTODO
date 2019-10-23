@@ -49,9 +49,9 @@ function checkInput() {
 }
 
 
-// Lägga till kurs
+// Lägga till i lista
 function addItem() {
-    console.log("Lägger till kurs...");
+    
 
 
     // Skapar nytt element
@@ -80,7 +80,7 @@ function addItem() {
 }
 
 
-// Spara kurser 
+// Spara lista 
 function storeItem() {
     console.log("Lagrar lista...");
 
@@ -102,7 +102,7 @@ function storeItem() {
 }
 
 
-// Läs in kurser
+// Läs in lista
 
 function loadStorage() {
     console.log("Läser in lista...")
