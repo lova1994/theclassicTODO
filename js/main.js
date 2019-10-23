@@ -24,7 +24,7 @@ function init() {
     // Inaktivera lägg till-knappen
     newToDoButtonEl.disabled = true
 
-    // läs in kurslista
+    // läs in lista
     if (todo != null) {
         loadStorage();
     }
@@ -84,7 +84,7 @@ function addItem() {
 function storeItem() {
     console.log("Lagrar lista...");
 
-    // Läs in i kurslistan
+    // Läs in i listan
     var todo = document.getElementsByClassName("todo");
     var tempArr = [];
 
