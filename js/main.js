@@ -1,5 +1,6 @@
 "Use strict";
 
+// todo list av Lova Unger 2018
 // variabler
 
 var newToDoEl = document.getElementById("newtodo");
